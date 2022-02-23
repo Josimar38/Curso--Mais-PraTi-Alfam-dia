@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Função para Arrei</title>
+</head>
+<body>
+  <script>
+    function alertaArrey(i, arrey1) {
+      let j = 0;
+      while (j < arrey1.length) {
+        alert("Na posição " + i + ", " + j + " valor = " + arrey1[j]);
+        j++;
+      }
+    }
+    let a = [[1, 2, 3], [5, 6], [10, 20]];
+    i = 0;
+    while (i < a.length) {
+      alertaArrey(i, a[i]);
+      i++;
+    } 
+  </script>
+</body>
+</html>

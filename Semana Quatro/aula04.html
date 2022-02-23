@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invertendo Números</title>
+</head>
+<body>
+  <script>
+    let total = Number(prompt('Entre com o total de números!'));
+    let a = [];
+    let i = 0;
+    while (i < total) {
+      a[i] = Number(prompt('Entre com o número ' + (i + 1)));
+      i++;
+    }
+    alert('Vamos exibir os números invertidos!');
+    i = total - 1;
+    while (i >= 0) {
+      alert(a[i]);
+      document.write(`O número foi ${a[i]}. `);
+      i--;
+    }
+  </script>
+</body>
+</html>
